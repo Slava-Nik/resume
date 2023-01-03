@@ -1,0 +1,159 @@
+.author-wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: system-ui,-apple-system, "Tahoma", "Arial", "Georgia";
+}
+
+.author{
+  display: flex;
+
+  &-details{
+    margin-left: 40px;
+
+    & p{
+      line-height: 29px;
+    }
+  }
+
+  &__image{
+    img {
+      width: 140px;
+    }
+  }
+
+  &__name{
+    margin: 0;
+    font-size: 40px;
+  }
+
+  &__info{
+    margin: 10px 0px;
+  }
+
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  &--details {
+    display: none;
+  }
+
+  &--separated {
+    display: flex;
+  }
+
+  p {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    color: #212529;
+    padding-right: 15px;
+
+    &:last-of-type {
+      padding-right: 0;
+    }
+
+    span {
+      padding-left: 5px;
+    }
+  }
+
+
+
+  &__link-icon {
+    position: relative;
+    top: 1px;
+  }
+
+  &__portfolio {
+    text-align: right;
+  }
+
+  & &__download-pdf {
+    margin-top: auto;
+    padding-bottom: 24px;
+    align-self: flex-end;
+    color: #0d6efd;
+  }
+}
+
+
+@media(max-width: 1220px){
+  .author-wrapper {
+    flex-direction: column;
+  }
+
+  .contacts {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &--details {
+      display: flex;
+    }
+
+    &--separated {
+      display: none;
+    }
+
+    &__portfolio {
+      text-align: left;
+    }
+
+    &__social {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    & &__download-pdf {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-self: flex-start;
+    }
+  }
+}
+
+@media(max-width: 770px){
+  .author__image {
+    display: none;
+  }
+
+  .author-details {
+    margin-left: 0;
+  }
+
+  .contacts--details {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .contacts .contacts__download-pdf {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 530px){
+  .author__name {
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 420px){
+  .contacts__social a{
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 360px){
+  .contacts .contacts__social {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
