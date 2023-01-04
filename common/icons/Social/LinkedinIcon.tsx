@@ -1,5 +1,5 @@
 import React from 'react';
-import {IconProps} from "../../../types/global";
+import {IconProps} from '../../../types/global';
 
 function LinkedinIcon({...props}: IconProps) {
     const {width = 24, height = 24, className} = props;

@@ -1,35 +1,34 @@
 .author-wrapper {
   display: flex;
   justify-content: space-between;
-  font-family: system-ui,-apple-system, "Tahoma", "Arial", "Georgia";
+  font-family: system-ui, -apple-system, Tahoma, Arial, Georgia;
 }
 
-.author{
+.author {
   display: flex;
 
-  &-details{
+  &-details {
     margin-left: 40px;
 
-    & p{
+    & p {
       line-height: 29px;
     }
   }
 
-  &__image{
+  &__image {
     img {
       width: 140px;
     }
   }
 
-  &__name{
+  &__name {
     margin: 0;
     font-size: 40px;
   }
 
-  &__info{
-    margin: 10px 0px;
+  &__info {
+    margin: 10px 0;
   }
-
 }
 
 .contacts {
@@ -64,8 +63,6 @@
     }
   }
 
-
-
   &__link-icon {
     position: relative;
     top: 1px;
@@ -83,8 +80,7 @@
   }
 }
 
-
-@media(max-width: 1220px){
+@media (max-width: 1220px) {
   .author-wrapper {
     flex-direction: column;
   }
@@ -119,7 +115,7 @@
   }
 }
 
-@media(max-width: 770px){
+@media (max-width: 770px) {
   .author__image {
     display: none;
   }
@@ -138,22 +134,21 @@
   }
 }
 
-@media(max-width: 530px){
+@media (max-width: 530px) {
   .author__name {
     font-size: 32px;
   }
 }
 
-@media(max-width: 420px){
-  .contacts__social a{
+@media (max-width: 420px) {
+  .contacts__social a {
     margin-bottom: 10px;
   }
 }
 
-@media(max-width: 360px){
+@media (max-width: 360px) {
   .contacts .contacts__social {
     flex-direction: column;
     padding: 0;
   }
 }
-

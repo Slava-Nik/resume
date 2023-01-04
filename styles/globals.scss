@@ -1,15 +1,17 @@
-body{
+body {
   background: #f5f5f5;
 }
 
 a {
   outline: none;
+
   &:hover {
-     opacity: 0.75;
-   }
+    opacity: 0.75;
+  }
+
   &:active {
-     opacity: 1;
-   }
+    opacity: 1;
+  }
 }
 
 .resume {
@@ -19,11 +21,14 @@ a {
   border: 1px solid #e2e2e2;
   font-size: 19px;
   color: #212529;
-  font-family: system-ui,-apple-system, "Arial", "Georgia";
+  font-family: system-ui, -apple-system, Arial, Georgia;
   background: white;
 
-  h1, h2, h3, h4 {
-    font-family: system-ui,-apple-system, "Tahoma", "Arial", "Georgia";
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: system-ui, -apple-system, Tahoma, Arial, Georgia;
   }
 }
 
@@ -35,26 +40,21 @@ a {
   }
 }
 
-
-@media(max-width: 1400px){
-  .resume{
+@media (max-width: 1400px) {
+  .resume {
     margin: 0;
   }
 }
 
-
-@media(max-width: 530px){
+@media (max-width: 530px) {
   .resume {
-    padding:25px 20px;
+    padding: 25px 20px;
     font-size: 17px;
   }
 
   .section {
-    .section__title{
+    .section__title {
       font-size: 19px;
     }
   }
-
 }
-
-
