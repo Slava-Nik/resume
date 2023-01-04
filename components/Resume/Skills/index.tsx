@@ -1,11 +1,16 @@
+import cn from "classnames";
+import List from "../../common/List";
+import styles from './index.module.scss';
+
+
 const Skills = () => {
     return (
-        <div className="section">
-            <h3 className="section-title">Description of key skills</h3>
+        <div className={cn(styles.skills, "section")}>
+            <h3 className="section__title">Description of key skills</h3>
 
-            <div className="section__module">
-                <h4 className="section__title">Front-end:</h4>
-                <ul className="section__list">
+            <div className={styles['skills-module']}>
+                <h4 className={styles['skills-module__title']}>Front-end:</h4>
+                <List>
                     <li>Responsive, adaptive, cross-browser, PixelPerfect layout by using BEM methodology;</li>
                     <li>I use SСSS/Stylus with Flexbox, CSS grid, Styled components, CSS modules, Material UI, Bootstrap;</li>
                     <li>Storybook;</li>
@@ -27,12 +32,12 @@ const Skills = () => {
                     <li>Graphics preparation (cutting, editing and optimization of images);</li>
                     <li>Basic Figma & Sketch & Photoshop skills;</li>
 
-                </ul>
+                </List>
             </div>
 
-            <div className="section__module">
-                <h4 className="section__title">Back-end:</h4>
-                <ul className="section__list">
+            <div className={styles['skills-module']}>
+                <h4 className={styles['skills-module__title']}>Back-end:</h4>
+                <List>
                     <li>Node.js: Express.js, Nest.js, Koa.js, pure Node.js;</li>
                     <li>Monolith and micro-services architectures (GRPC and RabbitMQ communication);</li>
                     <li>Data management: Mongo.db (ORM: Mongoose), PostgreSQL (ORM: Sequelize), Firebase, MySQL, GraphQL, Memcached;</li>
@@ -45,17 +50,17 @@ const Skills = () => {
                     <li>CI/CD: GitlabCI, CircleCI, Jenkins;</li>
                     <li>Logging & Monitoring: Sentry;</li>
                     <li>PHP: Laravel, Wordpress; (I had experience with PHP in the past, but now I prefer to work with Node.js);</li>
-                </ul>
+                </List>
             </div>
 
-            <div className="section__module">
-                <h4 className="section__title">Communicativeness:</h4>
-                <ul className="section__list">
+            <div className={styles['skills-module']}>
+                <h4 className={styles['skills-module__title']}>Communicativeness:</h4>
+                <List>
                     <li>Evaluation of cost and time;</li>
                     <li>Teamwork experience using gitflow (github, bitbucket, gitlab);</li>
                     <li>Team leading experience (Front-end, more than 1 year);</li>
                     <li>Project management in Jira, Trello;</li>
-                </ul>
+                </List>
             </div>
         </div>
     )

@@ -55,7 +55,7 @@ const AuthorInfo = () => {
             </div>
             <Contacts className={styles['contacts--separated']} />
         </div>
-    )
+    );
 
 };
 
