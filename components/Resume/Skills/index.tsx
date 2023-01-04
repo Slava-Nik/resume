@@ -1,11 +1,11 @@
-import cn from "classnames";
-import List from "../../common/List";
+import cn from 'classnames';
 import styles from './index.module.scss';
+import List from '../../common/List';
 
 
 const Skills = () => {
     return (
-        <div className={cn(styles.skills, "section")}>
+        <div className={cn(styles.skills, 'section')}>
             <h3 className="section__title">Description of key skills</h3>
 
             <div className={styles['skills-module']}>
@@ -63,7 +63,7 @@ const Skills = () => {
                 </List>
             </div>
         </div>
-    )
+    );
 
 };
 

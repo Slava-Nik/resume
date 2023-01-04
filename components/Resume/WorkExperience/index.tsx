@@ -1,6 +1,6 @@
-import styles from "./index.module.scss";
-import cn from "classnames";
-import List from "../../common/List";
+import cn from 'classnames';
+import styles from './index.module.scss';
+import List from '../../common/List';
 
 const WorkExperience = () => {
     return (
@@ -176,11 +176,9 @@ const WorkExperience = () => {
                         </span>
                     </p>
                 </div>
-
             </div>
-            
         </div>
-    )
+    );
 
 };
 

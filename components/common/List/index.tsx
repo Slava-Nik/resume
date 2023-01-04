@@ -1,6 +1,6 @@
 import React from 'react';
-import cn from "classnames";
-import styles from "./index.module.scss";
+import cn from 'classnames';
+import styles from './index.module.scss';
 
 type ListProps = {
     children: React.ReactNode,

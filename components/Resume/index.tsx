@@ -1,7 +1,7 @@
-import AuthorInfo from "./AuthorInfo";
-import Skills from "./Skills";
-import Separator from "../common/Separator";
-import WorkExperience from "./WorkExperience";
+import AuthorInfo from './AuthorInfo';
+import Skills from './Skills';
+import WorkExperience from './WorkExperience';
+import Separator from '../common/Separator';
 
 const Resume = () => {
     return (

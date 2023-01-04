@@ -1,7 +1,7 @@
-import cn from "classnames";
-import styles from './index.module.scss';
+import cn from 'classnames';
 import Image from 'next/image';
-import {GithubIcon, LinkedinIcon, TelegramIcon, EmailIcon} from "../../../common/icons/Social";
+import styles from './index.module.scss';
+import {EmailIcon, GithubIcon, LinkedinIcon, TelegramIcon} from '../../../common/icons/Social';
 
 
 const Contacts = ({className}: {className?: string}) => {

@@ -1,3 +1,41 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals"
+  ],
+
+  "rules": {
+    "no-console": "warn",
+    "prefer-const": "error",
+    "semi": "error",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": false,
+        "avoidEscape": true
+      }
+    ],
+    "import/order":
+    [
+      1,
+      { "groups":
+      [
+        "external",
+        "builtin",
+        "internal",
+        "sibling",
+        "parent",
+        "index"
+      ]
+      }
+    ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true
+      }
+    ]
+  }
 }
