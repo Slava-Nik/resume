@@ -1,11 +1,3 @@
-My resume is a [Next.js](https://nextjs.org/) react application bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+My resume Next.js react application.
 
-
-
-To launch it locally, you can run:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+It's available via the link: [https://slava-nik.github.io/resume](https://slava-nik.github.io/resume)
