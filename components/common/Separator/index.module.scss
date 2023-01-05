@@ -11,3 +11,15 @@
     margin-bottom: 35px;
   }
 }
+
+@media print {
+  .separator {
+    &--top {
+      margin-top: 30px;
+    }
+
+    &--bottom {
+      margin-bottom: 30px;
+    }
+  }
+}

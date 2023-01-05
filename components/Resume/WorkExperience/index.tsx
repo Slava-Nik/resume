@@ -166,8 +166,8 @@ const WorkExperience = () => {
                     <p className={styles['job__position']}>Position: Full-stack web developer</p>
                     <p className={styles['job__description']}>
                         I{"'"}ve been developing front-end and back-end for web applications. <br/>
-                        My projects are available via the link:
-                        <a href="https://slava-nik.github.io#recent_projects" target="_blank" rel="noreferrer"> https://slava-nik.github.io#recent_projects</a>.
+                        My projects are available via the link:{' '}
+                        <a href="https://slava-nik.github.io#recent_projects" target="_blank" rel="noreferrer">https://slava-nik.github.io#recent_projects</a>.
                     </p>
                     <p className={styles['job__stack']}>
                         <b className={styles['job__stack-heading']}>Stack: </b>

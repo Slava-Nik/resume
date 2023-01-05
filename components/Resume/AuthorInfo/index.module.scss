@@ -15,12 +15,6 @@
     }
   }
 
-  &__image {
-    img {
-      width: 140px;
-    }
-  }
-
   &__name {
     margin: 0;
     font-size: 40px;
@@ -52,10 +46,10 @@
     display: inline-flex;
     align-items: center;
     color: #212529;
-    padding-right: 15px;
+    margin-right: 20px;
 
     &:last-of-type {
-      padding-right: 0;
+      margin-right: 0;
     }
 
     span {
@@ -80,37 +74,39 @@
   }
 }
 
-@media (max-width: 1220px) {
-  .author-wrapper {
-    flex-direction: column;
-  }
-
-  .contacts {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    &--details {
-      display: flex;
+@media not print {
+  @media (max-width: 1220px) {
+    .author-wrapper {
+      flex-direction: column;
     }
 
-    &--separated {
-      display: none;
-    }
-
-    &__portfolio {
-      text-align: left;
-    }
-
-    &__social {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    & &__download-pdf {
+    .contacts {
       margin-top: 20px;
       margin-bottom: 20px;
-      align-self: flex-start;
+
+      &--details {
+        display: flex;
+      }
+
+      &--separated {
+        display: none;
+      }
+
+      &__portfolio {
+        text-align: left;
+      }
+
+      &__social {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      & &__download-pdf {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-self: flex-start;
+      }
     }
   }
 }
@@ -140,7 +136,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 438px) {
   .contacts__social a {
     margin-bottom: 10px;
   }
@@ -150,5 +146,34 @@
   .contacts .contacts__social {
     flex-direction: column;
     padding: 0;
+  }
+}
+
+@media print {
+  .contacts .contacts__download-pdf {
+    display: none;
+  }
+
+  .author {
+    &__name {
+      position: relative;
+      left: 6px;
+      font-size: 30px;
+    }
+
+    &__image {
+      img {
+        position: relative;
+        top: 5px;
+      }
+    }
+
+    &-details {
+      margin-left: 25px;
+
+      & > p {
+        margin: 10px;
+      }
+    }
   }
 }

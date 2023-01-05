@@ -9,7 +9,7 @@ const Resume = () => {
             <AuthorInfo />
             <Separator top={false} />
             <Skills />
-            <Separator />
+            <Separator className="resume__separator--skills" />
             <WorkExperience/>
         </div>
     );

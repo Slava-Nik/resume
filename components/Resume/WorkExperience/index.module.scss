@@ -61,3 +61,35 @@
     }
   }
 }
+
+@media print {
+  .job {
+    &--underlined {
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+    }
+
+    &__stack {
+      margin: 27px 0 0;
+      font-size: 15px;
+    }
+
+    &__heading {
+      margin: 17px 0;
+    }
+
+    &__position {
+      margin: 0 0 20px;
+    }
+
+    &__description {
+      margin: 0 0 12px;
+    }
+  }
+
+  .job:nth-of-type(6).job--underlined {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}

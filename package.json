@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint & npx stylelint \"**/*.scss\""
+    "build": "next build && next export",
+    "start": "PORT=3005 next start",
+    "lint": "next lint && npx stylelint \"**/*.scss\""
   },
   "dependencies": {
     "@next/font": "13.1.1",

@@ -27,7 +27,7 @@ const Contacts = ({className}: {className?: string}) => {
                 </a>
             </p>
             <p className={styles['contacts__portfolio']}>Portfolio site: <a href="https://slava-nik.github.io/" target="_blank" rel="noreferrer">https://slava-nik.github.io</a></p>
-            <a className={styles['contacts__download-pdf']} href="#" target="_blank">Download resume in PDF</a>
+            <a className={styles['contacts__download-pdf']} href="/resume.pdf" download="SlavaNikolaevich_CV.pdf">Download resume in PDF</a>
         </div>
     );
 };
