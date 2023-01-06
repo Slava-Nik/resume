@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         I<title>Slava Nikolaevich | Resume</title>
-        <meta name='description' content='Slava Nikolaevich PDF resume project' />
+        <meta name='description' content='Senior Front-end & Back-end Engineer. Slava Nikolaevich, PDF resume' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href={getPublicURL('/favicon.png')} />
       </Head>
