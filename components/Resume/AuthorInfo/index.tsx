@@ -39,11 +39,12 @@ const AuthorInfo = () => {
         <div className={styles['author-wrapper']}>
             <div className={styles.author}>
                 <div className={styles.author__image}>
-                    <img
+                    <Image
                         src={getPublicURL('/author.jpg')}
                         alt="Slava Nikolaevich, year 2017"
                         width={140}
                         height={125}
+                        priority
                     />
                 </div>
                 <div className={styles['author-details']}>

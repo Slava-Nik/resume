@@ -10,7 +10,7 @@ export default function Home() {
         <meta name='description' content='Senior Front-end & Back-end Engineer. Slava Nikolaevich, PDF resume' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href={getPublicURL('/favicon.png')} />
-        <link rel="preload" as="image" href={getPublicURL('/author.jpg')} />
+        {/*<link rel="preload" as="image" href={getPublicURL('/author.jpg')} />*/}
       </Head>
       <div className='app'>
         <Resume />
