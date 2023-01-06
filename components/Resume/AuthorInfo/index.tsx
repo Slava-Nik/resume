@@ -1,6 +1,7 @@
 import cn from 'classnames';
 import Image from 'next/image';
 import styles from './index.module.scss';
+import {getPublicURL} from '../../../utils/common';
 import {EmailIcon, GithubIcon, LinkedinIcon, TelegramIcon} from '../../../common/icons/Social';
 
 
@@ -27,7 +28,7 @@ const Contacts = ({className}: {className?: string}) => {
                 </a>
             </p>
             <p className={styles['contacts__portfolio']}>Portfolio site: <a href="https://slava-nik.github.io/" target="_blank" rel="noreferrer">https://slava-nik.github.io</a></p>
-            <a className={styles['contacts__download-pdf']} href="/resume.pdf" download="SlavaNikolaevich_CV.pdf">Download resume in PDF</a>
+            <a className={styles['contacts__download-pdf']} href={getPublicURL('/resume.pdf')} download="SlavaNikolaevich_CV.pdf">Download resume in PDF</a>
         </div>
     );
 };
@@ -39,7 +40,7 @@ const AuthorInfo = () => {
             <div className={styles.author}>
                 <div className={styles.author__image}>
                     <Image
-                        src="/author.jpg"
+                        src={getPublicURL('/author.jpg')}
                         alt="Slava Nikolaevich, 2017 year"
                         width={140}
                         height={125}
