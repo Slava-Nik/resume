@@ -62,7 +62,7 @@ const WorkExperience = () => {
                     </List>
                     <p className={styles['job__stack']}>
                         <b className={styles['job__stack-heading']}>Project stack: </b>
-                        <span className={styles['job__stack-description']}>React.js, Redux, Webpack, Node.js (SSR), Redis, Web-sockets, AWS, Docker, Jitsi (Video conferencing), Quill.js (Notes), Konva.js (Canvas ideaboard), MaterialUI, Storybook, etc; <br/> Acroplia Drive backend: Node.js, Mongo.db (Mongoose); <br/> Micro-services Node.js backend: Nest.js + TypeScript, GRPC, RabbitMQ, TypeORM, PostgreSQL;</span>
+                        <span className={styles['job__stack-description']}>React.js, Redux, Webpack, Node.js (SSR), Redis, Web-sockets, AWS, Docker, Jitsi (Video conferencing), Quill.js (Notes), Konva.js (Canvas idea-board), MaterialUI, Storybook, etc; <br/> Acroplia Drive backend: Node.js, Mongo.db (Mongoose); <br/> Micro-services Node.js backend: Nest.js + TypeScript, GRPC, RabbitMQ, TypeORM, PostgreSQL;</span>
                     </p>
                 </div>
 

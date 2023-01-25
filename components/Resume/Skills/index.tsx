@@ -44,7 +44,7 @@ const Skills = () => {
                     <li>Integration with payment systems (Payture, PayPal, Tinkoff, Yandex.kassa);</li>
                     <li>CRM integration: Bitrix24;</li>
                     <li>Web-scrapers development: Complex scrapers using a headless browser (Puppeteer) and usual URL based ones;</li>
-                    <li>Integration with third party services (trello api, vk api, slack api, telegram api, linkedIn api, yandex metrika, google analytics, etc);</li>
+                    <li>Integration with third party services (trello api, vk api, slack api, telegram api, yandex metrika, google analytics, etc);</li>
                     <li>Cloud Platforms: AWS (EC2, S3, Lambda, SES), Heroku;</li>
                     <li>Containerization: Docker;</li>
                     <li>CI/CD: GitlabCI, CircleCI, Jenkins;</li>
@@ -56,9 +56,10 @@ const Skills = () => {
             <div className={styles['skills-module']}>
                 <h4 className={styles['skills-module__title']}>Communicativeness:</h4>
                 <List>
+                    <li>Languages: English (Fluent/C1), Russian (Native);</li>
                     <li>Evaluation of cost and time;</li>
                     <li>Teamwork experience using gitflow (github, bitbucket, gitlab);</li>
-                    <li>Team leading experience (Front-end, more than 1 year);</li>
+                    <li>Team leading experience (CTO Front-end, more than 1 year);</li>
                     <li>Project management in Jira, Trello;</li>
                 </List>
             </div>
