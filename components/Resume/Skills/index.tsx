@@ -58,8 +58,8 @@ const Skills = () => {
                 <List>
                     <li>Languages: English (Fluent/C1), Russian (Native);</li>
                     <li>Evaluation of cost and time;</li>
-                    <li>Teamwork experience using gitflow (github, bitbucket, gitlab);</li>
-                    <li>Team leading experience (CTO Front-end, more than 1 year);</li>
+                    <li>Teamwork experience using gitflow (Github, Bitbucket, Gitlab);</li>
+                    <li>Team leading experience (Front-end CTO for over a year);</li>
                     <li>Project management in Jira, Trello;</li>
                 </List>
             </div>
