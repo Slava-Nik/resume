@@ -36,6 +36,7 @@ const WorkExperience = () => {
                         <li>Working on the entire frontend part of the platform (all Acroplia modules). Was responsible for: performance optimizations, refactoring, new features, bug fixes, and technical solutions;</li>
                         <li>Leading a team of 6 software engineers to ensure project milestones are achieved on time;</li>
                         <li>Code review and help to team members;</li>
+                        <li>Team members performance evaluation;</li>
                         <li>Tasks estimation and assistance to managers in the preparation of sprints;</li>
                         <li>Collaboration with the design team, QA team, Kotlin backend team, and DevOps engineers;</li>
                         <li>Conducting technical interviews with front-end and Node.js candidates. Conducted over 10 technical interviews;</li>
