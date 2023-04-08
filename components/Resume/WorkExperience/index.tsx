@@ -8,6 +8,15 @@ const WorkExperience = () => {
             <h3 className='section__title'>Work experience / Oct 2015 — present</h3>
 
             <div className={styles['jobs']}>
+
+                <div style={{paddingBottom: 20}} className={cn(styles['job'], styles['job--underlined'])}>
+                    <h4 className={styles['job__heading']}>
+                        <b>Startup: R1SE racing platform</b>
+                        <span> / Jan 2023 - Present</span>
+                    </h4>
+                    <p className={styles['job__position']}>Position: Senior Full-stack developer</p>
+                </div>
+
                 <div className={styles['job']}>
                     <h4 className={styles['job__heading']}>
                         <b>Startup: Acroplia</b>

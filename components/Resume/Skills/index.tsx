@@ -19,6 +19,7 @@ const Skills = () => {
                     <li>PWA;</li>
                     <li>SPA development with React.js + Redux (thunk, saga), GraphQL, including SSR (Next.js);</li>
                     <li>SPA development with Vue.js + Vuex;</li>
+                    <li>Desktop apps development with Electron (electron-vite);</li>
                     <li>Javascript (ES5-ES2021), TypeScript, JQuery;</li>
                     <li>Javascript third party libraries (sliders, validation, navigation, animation etc.);</li>
                     <li>Loading and rendering performance optimizations & smooth interfaces;</li>
