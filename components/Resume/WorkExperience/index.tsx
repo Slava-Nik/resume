@@ -11,10 +11,28 @@ const WorkExperience = () => {
 
                 <div style={{paddingBottom: 20}} className={cn(styles['job'], styles['job--underlined'])}>
                     <h4 className={styles['job__heading']}>
-                        <b>Startup: R1SE racing platform</b>
+                        <b>Startup: R1SE gaming tournament platform</b>
                         <span> / Jan 2023 - Present</span>
                     </h4>
                     <p className={styles['job__position']}>Position: Senior Full-stack developer</p>
+                    <p className={styles['job__description']}>R1SE is a gaming tournament platform that allows users to compete with players from all over the world.<br/>
+                        For more information about the project, follow the link: <a href="https://slava-nik.github.io#recent_projects" target="_blank" rel="noreferrer">https://slava-nik.github.io#recent_projects</a>.
+                    </p>
+                    <List>
+                        <li>Working on the entire R1SE platform (Including: Main frontend, Admin panel, Client app, Nest.js backend). <br/> Area of responsibility: frontend architecture, best practices, project performance, new features, bug fixes, code review, and technical solutions;</li>
+                        <li>Refactored existing repositories, removed unused code and libraries;</li>
+                        <li>Set up proper development work-flow with type-checking, linting and git-hooks for repositories;</li>
+                        <li>Set up Redux architecture (redux-toolkit + redux-sagas) for the Main Frontend with the data normalization technique;</li>
+                        <li>Set up WebSockets architecture using socket.io and redux-sagas;</li>
+                        <li>Created a common library for shared components with Storybook and moved repeated components there;</li>
+                        <li>Optimized bundle sizes and initial loading of the platform;</li>
+                        <li>Developed the core frontend repository functionality of R1SE;</li>
+                        <li>Delivered a large number of functionality to other R1SE repositories;</li>
+                    </List>
+                    <p className={styles['job__stack']}>
+                        <b className={styles['job__stack-heading']}>Project stack: </b>
+                        <span className={styles['job__stack-description']}><br/>Main front-end: TypeScript, Next.js, React.js, Redux (Redux-toolkit + Redux sagas middleware), Web-sockets (socket.io), MaterialUI, Storybook, Sentry;<br/>Admin panel front-end: TypeScript, React.js, Redux, MaterialUI, Formik, Recharts;<br/>Client windows app: Electron.js, TypeScript, React.js, Redux, MaterialUI;<br/>Backend app: Node.js (Nest.js + TypeScript), Web-sockets (socket.io), PostgreSQL (sequelize), Redis, Passport.js (passport-steam), Docker; </span>
+                    </p>
                 </div>
 
                 <div className={styles['job']}>
@@ -42,7 +60,7 @@ const WorkExperience = () => {
                     </h4>
                     <p className={styles['job__position']}>Position: Front-end technical lead</p>
                     <List>
-                        <li>Working on the entire frontend part of the platform (all Acroplia modules). Was responsible for: performance optimizations, refactoring, new features, bug fixes, and technical solutions;</li>
+                        <li>Working on the entire frontend part of the platform (all Acroplia modules). I was responsible for: performance optimizations, refactoring, new features, bug fixes, and technical solutions;</li>
                         <li>Leading a team of 6 software engineers to ensure project milestones are achieved on time;</li>
                         <li>Code review and help to team members;</li>
                         <li>Team members performance evaluation;</li>
