@@ -14,7 +14,7 @@ const WorkExperience = () => {
                         <b>Startup: R1SE gaming tournament platform</b>
                         <span> / Jan 2023 - Present</span>
                     </h4>
-                    <p className={styles['job__position']}>Position: Senior Full-stack developer</p>
+                    <p className={styles['job__position']}>Position: Senior Full-stack web developer</p>
                     <p className={styles['job__description']}>R1SE is a gaming tournament platform that allows users to compete with players from all over the world.<br/>
                         For more information about the project, follow the link: <a href="https://slava-nik.github.io#recent_projects" target="_blank" rel="noreferrer">https://slava-nik.github.io#recent_projects</a>.
                     </p>
