@@ -49,11 +49,10 @@ const AuthorInfo = () => {
                 </div>
                 <div className={styles['author-details']}>
                     <h2 className={styles.author__name}>Slava Nikolaevich</h2>
-                    <p className={styles.author__info}>Senior Front-end & Back-end Engineer, 26 y.o</p>
+                    <p className={styles.author__info}>Senior Front-end & Back-end Engineer, 27 y.o</p>
                     <p className={styles.author__education}>Education: B.S in Information systems and technologies</p>
-                    <p className={styles.author__location}>Location: <br/>
-                        Before November 10, 2023: UAE, Dubai (GMT+4). <br/>
-                        After November 10, 2023: Thailand, Phuket (GMT +7). </p>
+                    <p className={styles.author__location}>Location:
+                        Indonesia, Bali (GMT+8).  </p>
                     <Contacts className={styles['contacts--details']} />
                 </div>
             </div>
